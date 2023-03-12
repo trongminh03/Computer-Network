@@ -21,6 +21,5 @@ while True:
     print('Client address: {}:{}'.format(client_address[0], client_address[1]))
 
     # Send a response to the client
-    # response = 'Hello, client!'
     response = data.decode().upper()
     udp_socket.sendto(response.encode(), client_address)
