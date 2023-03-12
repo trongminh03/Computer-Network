@@ -2,7 +2,7 @@ import socket
 
 # Define the IP address and port for the server
 ip_address = '127.0.0.1'
-port = 5000
+port = 6000
 
 # Create a UDP socket object
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
